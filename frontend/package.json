@@ -1,0 +1,46 @@
+{
+  "name": "react-todo-app-main",
+  "version": "1.0.0",
+  "description": "![React Todo App](./banner.png)",
+  "main": "index.js",
+  "proxy": "http://localhost:3001/",
+	"private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fontsource/poppins": "^4.5.10",
+    "@reduxjs/toolkit": "^1.9.2",
+    "axios": "^1.3.2",
+    "bootstrap": "^5.2.3",
+    "date-fns": "^2.29.3",
+    "framer-motion": "^9.0.2",
+    "node-sass": "^8.0.0",
+    "proxy": "^1.0.2",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.0",
+    "react-icons": "^4.7.1",
+    "react-redux": "^8.0.5",
+    "react-scripts": "^5.0.1",
+    "to-iso-string": "^0.0.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
